@@ -471,7 +471,7 @@ p {
 }
 
 .contact {
-  background-image: url(/img/map-image.png);
+  background-image: url(../img/map-image.png);
   background-color: #212529;
   background-size: 100%;
   background-repeat: no-repeat;
