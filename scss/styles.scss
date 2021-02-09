@@ -487,7 +487,8 @@ p {
 }
 
 .contact {
-    background-image: url(../img/map-image.png);
+    background-image: radial-gradient(ellipse at center, rgba(0,0,0, .4) 0%, rgba(0,0,0, .9)100%),
+    url(../img/contact.jpg);
     background-color: #212529;
     background-size: 100%;
     background-repeat: no-repeat;
