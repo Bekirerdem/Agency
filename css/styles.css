@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /** Variables **/
 /** General Settings **/
 *,
@@ -94,7 +91,7 @@ p {
 }
 
 .header {
-  background-image: url(/img/header-bg.jpg);
+  background-image: url(../img/contact.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -471,7 +468,7 @@ p {
 }
 
 .contact {
-  background-image: url(/img/map-image.png);
+  background-image: url(../img/map-image.png);
   background-color: #212529;
   background-size: 100%;
   background-repeat: no-repeat;
