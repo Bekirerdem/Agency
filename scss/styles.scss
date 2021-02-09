@@ -94,7 +94,7 @@ p {
 }
 
 .header {
-    background-image: url(https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/header-bg.jpg?raw=true);
+    background-image: url(/img/header-bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -487,8 +487,8 @@ p {
 }
 
 .contact {
-    background-image: url(../img/map-image.png);
-    //background-color: #212529;
+    background-image: url(/img/map-image.png);
+    background-color: #212529;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
