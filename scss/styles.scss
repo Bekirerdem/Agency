@@ -61,6 +61,8 @@ p {
     font-family: $roboto-slab;
 }
 
+/** Navigation Section **/
+
 .navbar {
     position: fixed;
     top: 0;
@@ -91,6 +93,8 @@ p {
         }
     }
 }
+
+/** Header Section **/
 
 .header {
     background-image: url(../img/header-bg.jpg);
@@ -139,6 +143,8 @@ p {
     }
 }
 
+/** Services Section **/
+
 .services {
     padding-top: 6rem;
     background-color: $white-color;
@@ -175,6 +181,8 @@ p {
         }
     }
 }
+
+/** Portfolio Section **/
 
 .portfolio {
     background-color: $light-color;
@@ -260,6 +268,8 @@ p {
         }
     }
 }
+
+/** About Section **/
 
 .about {
     padding-top: 6rem;
@@ -424,6 +434,8 @@ p {
     }
 }
 
+/** Team Section **/
+
 .team {
     background-color: $light-color;
     padding-bottom: 7rem;
@@ -458,12 +470,10 @@ p {
         }
 
         .icons {
-            text-align: center;
             padding-top: 1rem;
             a {
-                text-align: center;
                 color: $dark-color;
-                padding-left: 1.5rem;
+                padding: .75rem .75rem;
             } 
         }
     }
@@ -475,6 +485,8 @@ p {
     }
 }
 
+/** Clients Section **/
+
 .clients {
     background-color: $white-color;
     padding: 4rem 4rem;
@@ -484,6 +496,8 @@ p {
         padding-right: 3rem;
     }
 }
+
+/** Contact Section **/
 
 .contact {
     background-image: url(../img/map-image.png);
@@ -557,6 +571,7 @@ p {
     }
 }
 
+/** Footer Section **/
 
 footer {
     background-color: $dark-color;

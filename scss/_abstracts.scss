@@ -9,3 +9,24 @@ $light-color: #f8f9fa;
 $yellow-color: #fed110;
 $light-yellow: #f5ce33;
 $white-color: #fff;
+
+
+@mixin media ($screensize) {
+    
+    @if ($screensize == xlarge) {
+        @media(max-width: 1280px) { @content };
+    }
+
+    @if ($screensize == large) {
+        @media(max-width: 992px) { @content };
+    }
+
+    @if ($screensize == medium) {
+        @media(max-width: 768px) { @content };
+    }
+
+    @if ($screensize == small) {
+        @media(max-width: 576px) { @content };
+    }
+
+}

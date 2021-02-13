@@ -59,6 +59,7 @@ p {
   font-family: "Roboto Slab", serif;
 }
 
+/** Navigation Section **/
 .navbar {
   position: fixed;
   top: 0;
@@ -90,6 +91,7 @@ p {
   color: #fed110;
 }
 
+/** Header Section **/
 .header {
   background-image: url(../img/header-bg.jpg);
   background-size: 100%;
@@ -137,6 +139,7 @@ p {
   color: #fed110;
 }
 
+/** Services Section **/
 .services {
   padding-top: 6rem;
   background-color: #fff;
@@ -172,6 +175,7 @@ p {
   letter-spacing: .015rem;
 }
 
+/** Portfolio Section **/
 .portfolio {
   background-color: #f8f9fa;
 }
@@ -250,6 +254,7 @@ p {
   padding-bottom: 1.5rem;
 }
 
+/** About Section **/
 .about {
   padding-top: 6rem;
   margin-top: 3rem;
@@ -405,6 +410,7 @@ p {
   justify-content: center;
 }
 
+/** Team Section **/
 .team {
   background-color: #f8f9fa;
   padding-bottom: 7rem;
@@ -441,14 +447,12 @@ p {
 }
 
 .team-row .icons {
-  text-align: center;
   padding-top: 1rem;
 }
 
 .team-row .icons a {
-  text-align: center;
   color: #212529;
-  padding-left: 1.5rem;
+  padding: .75rem .75rem;
 }
 
 .team-paragraf {
@@ -457,6 +461,7 @@ p {
   line-height: 1.5rem;
 }
 
+/** Clients Section **/
 .clients {
   background-color: #fff;
   padding: 4rem 4rem;
@@ -467,6 +472,7 @@ p {
   padding-right: 3rem;
 }
 
+/** Contact Section **/
 .contact {
   background-image: url(../img/map-image.png);
   background-color: #212529;
@@ -534,6 +540,7 @@ p {
   background-color: #f8f9fa;
 }
 
+/** Footer Section **/
 footer {
   background-color: #212529;
 }
