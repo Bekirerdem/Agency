@@ -62,19 +62,17 @@ p {
 /** Navigation Section **/
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  padding: 1.5rem 1.5rem;
+  padding: 3rem 0rem;
   z-index: 100;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(33, 37, 41, 0.8);
+  background-color: transparent;
 }
 
 .navbar .logo {
-  width: 10rem;
+  width: 12rem;
 }
 
 .navbar-list {
@@ -85,10 +83,27 @@ p {
   padding-left: 2.5rem;
   transition: all .5s;
   color: #f8f9fa;
+  font-size: 1.1rem;
 }
 
 .navbar-list a:hover {
   color: #fed110;
+}
+
+.nav {
+  position: fixed;
+  background: #212529;
+  padding: 1.2rem 0rem;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+
+.nav .logo {
+  width: 10rem;
+}
+
+.nav a {
+  font-size: 1rem;
 }
 
 /** Header Section **/

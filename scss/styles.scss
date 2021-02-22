@@ -65,18 +65,16 @@ p {
 
 .navbar {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    padding: 1.5rem 1.5rem;
+    padding: 3rem 0rem;
     z-index: 100;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba($dark-color, .8);
+    background-color: transparent;
 
     .logo {
-        width: 10rem;
+        width: 12rem;
     }
 
     &-list {
@@ -86,12 +84,30 @@ p {
             padding-left: 2.5rem;
             transition: all .5s;
             color: $light-color;
+            font-size: 1.1rem;
         }
 
         a:hover {
             color: $yellow-color;
         }
     }
+}
+
+.nav{
+    position: fixed;
+    background: $dark-color;
+    padding: 1.2rem 0rem;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+
+    .logo {
+        width: 10rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
 }
 
 /** Header Section **/

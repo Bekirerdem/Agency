@@ -28,5 +28,4 @@ $white-color: #fff;
     @if ($screensize == small) {
         @media(max-width: 576px) { @content };
     }
-
 }
